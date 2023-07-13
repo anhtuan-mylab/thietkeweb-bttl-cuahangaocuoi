@@ -19,11 +19,10 @@ Nhóm chọn thời trang áo cưới là vì :
 
 ### Một số hình ảnh về trang web :
 ![](hinh-anh/2023-07-13-16_25_37-Homepage_Page.png)
-
 ![](hinh-anh/2023-07-13 16_26_07-Homepage_Page.png)
-![Untitled](hinh-anh/2023-07-13 16_26_16-Homepage_Page.png)
-![Untitled](hinh-anh/2023-07-13 16_26_24-Homepage_Page.png)
-![Untitled](hinh-anh/2023-07-13 16_26_49-Product_Page.png)
-![Untitled](hinh-anh/2023-07-13 16_27_41-About_US_Page.png)
-![Untitled](hinh-anh/2023-07-13 16_27_51-Window.png)
+![](hinh-anh/2023-07-13-16_26_16-Homepage_Page.png)
+![](hinh-anh/2023-07-13-16_26_24-Homepage_Page.png)
+![](hinh-anh/2023-07-13-16_26_49-Product_Page.png)
+![](hinh-anh/2023-07-13-16_27_41-About_US_Page.png)
+![](hinh-anh/2023-07-13-16_27_51-Window.png)
 
