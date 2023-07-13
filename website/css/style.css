@@ -1,0 +1,219 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+p
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* THANH MENU */
+.navbar-nav li:hover    .dropdown-menu
+{
+    display: block;
+}
+
+.section-1
+{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+}
+
+/* BANNER */
+/* .carousel-item {
+
+animation: fadeIn 5s;
+
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}  */
+
+/* button bar */
+
+
+
+.button-bar
+{
+    position: fixed;
+    top: 450px;
+    right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.button-bar > div
+{
+    margin-bottom: 10px;
+}
+
+
+.button-bar .button
+{
+    width: 40px;
+    height: 40px;
+    background-color: #343a40;
+    position: relative;
+    border-radius: 100%;
+
+}
+
+.button-bar .button .btn
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+/* FEATURE PRODUCT */
+.p1
+{
+    position: relative;
+}
+
+.p1::before
+{
+    content: "";
+    width: 200px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.p1::after
+{
+    content: "";
+    width: 200px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.col-sm
+{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.section-3 .item img:hover
+{
+    transform: scale(1.5);
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* NEW */
+.section-4 .p1::before,.section-4 .p1::after
+{   
+    width: 100px;
+}
+
+/* .item
+{
+    background-color: lightcoral;
+} */
+
+.card-body
+{
+    border: 0;
+}
+
+.section-4 .card:hover, .section-5 .card:hover
+{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: .5s;
+    cursor: pointer;
+}
+
+/* PRODUCT */
+
+
+
+/* FOOTER */
+.section-6
+{
+    background-color: #343a40;
+}
+
+.section-6 .card
+{
+    background-color: #343a40;
+    color: white;
+    border: 0;
+}
+
+
+
+@media only screen and (max-device-width : 480px) {
+    .p1::after,.p1::before
+    {
+        display: none;
+    }
+
+    .row
+    {
+        grid-gap:15px;
+    }
+
+    .section-2
+    {
+        height: 200px;
+    }
+
+    .section-4 .info
+    {
+        display: none;
+    }
+
+
+}
+    
+@media only screen and (max-device-width : 1024px) {
+    .p1::after,.p1::before
+    {
+        display: none;
+    }
+
+    .section-2
+    {
+        height: 300px;
+    }
+
+    .section-4 .info
+    {
+        display: none;
+    }
+}
+

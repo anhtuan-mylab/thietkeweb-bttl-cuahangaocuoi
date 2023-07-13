@@ -1,0 +1,61 @@
+
+
+.carousel-indicators .img-test-1
+{
+    width: 100px;
+    height: 140px;
+    
+    background-image: url("../img/product/ball_gown/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    border-top: 0;
+}
+
+.carousel-indicators .img-test-2
+{
+    width: 100px;
+    height: 140px;
+    
+    background-image: url("../img/product/ball_gown/2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    border-top: 0;
+
+    
+}
+
+.carousel-indicators .img-test-3
+{
+    width: 100px;
+    height: 140px;
+    
+    background-image: url("../img/product/ball_gown/3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    border-top: 0;
+}
+
+.section-2
+{
+    position: relative;
+}
+
+.carousel-indicators
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+    
+.carousel-indicators
+{
+    display: inline-block;
+    margin: 0;
+    
+
+}
+
+    

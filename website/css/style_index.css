@@ -1,0 +1,137 @@
+body
+{
+    box-sizing: border-box;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.sectione-2
+{
+    height: 450px;
+    overflow: hidden;
+}
+
+
+.slide
+{
+    display: block;
+}
+
+.content-title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cate li
+{
+    position: relative;
+}
+
+.cate .nav-item:hover
+{
+    background-color: blue;
+}
+
+.sub-menu
+{
+    position: absolute;
+    left: 100%;
+    top: 0%;
+
+    background-color: blue;
+
+    width: 100%;
+}
+
+.section-5 > div
+{
+    cursor: pointer;
+}
+
+.section-5 .col-sm:hover .fa-facebook-square, .section-5 .col-sm:hover .fa-twitter-square, .section-5 .col-sm:hover .fa-youtube, .section-5 .col-sm:hover .fa-instagram-square, .section-5 .col-sm:hover .fa-pinterest-square
+{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+.section-6 ul
+{
+    list-style-type: none;
+}
+
+.section-6 ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.product .item
+{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.product .item img:hover
+{
+    transform: scale(1.5);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.button-bar
+{
+    position: fixed;
+    top: 450px;
+    right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.button-bar > div
+{
+    margin-bottom: 10px;
+}
+
+
+.button-bar .button
+{
+    width: 40px;
+    height: 40px;
+    background-color: #343a40;
+    position: relative;
+    border-radius: 100%;
+
+}
+
+.button-bar .button .btn
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.card:hover
+{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+

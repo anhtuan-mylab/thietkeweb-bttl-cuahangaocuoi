@@ -1,0 +1,39 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+.col-sm:hover img
+{
+    transition: 1s;
+    transform: scale(1.5);
+}
+
+.col-sm:hover .line
+{
+    transition: 1s;
+    width: 200px;
+}
+
+.card-im:hover
+{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+
+}
+
+.card-im
+{
+    
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.line
+{
+    display:block;
+    width: 100px;
+    height:5px;
+    background-color: #2980B9;
+    margin-top: 15px;
+    border-radius: 5px;
+}
