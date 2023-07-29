@@ -1,6 +1,6 @@
 # BÀI TẬP TIỂU LUẬN : Xây dựng một trang web thời trang (bài làm sử dụng thời trang áo cưới)
 
-### Truy cập tại : [Link](https://anhtuan-mylab.github.io/ThietKeWeb-BTTL-CuaHangAoCuoi/)
+### Truy cập tại : [Link](https://anhtuan-mylab.github.io/thietkeweb-bttl-cuahangaocuoi/)
 
 ### Lí do thực hiện :
 Nhóm chọn thời trang áo cưới là vì :
